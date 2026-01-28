@@ -19,7 +19,7 @@ Common commands, options, arguments, and uses for different tools in Linux
 ## Document layout and how to use
 
 Layout of how commands are displayed. The title below will be displayed in the command's case sensitive format, exactly how it will be used in the command line. These command blocks will contain the command, description of the command, syntax, options, arguments, and examples.
-### example-command
+### command
 
 This is an example command. This description will display the purpose of the command. 
 
