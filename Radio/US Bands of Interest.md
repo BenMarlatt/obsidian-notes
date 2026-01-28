@@ -7,28 +7,58 @@
 
 # Broadcasts
 ---
-* AM Broadcast: (526KHz-1606KHz)
-* FM Broadcast: (88-108MHz)
-* NOAA Weather: (162.4-162.55MHz)
+Broadcast services are intended for one-to-many transmission of audio and information to the public.
+
+## AM Broadcast
+---
+**Frequency Range:** 526 – 1705 kHz  
+**Modulation:** AM
+
+## FM Broadcast
+---
+**Frequency Range:** 88 – 108 MHz  
+**Modulation:** WFM
+
+## NOAA Weather Radio
+---
+Continuous weather and hazard information in the United States.
+
+**Frequency Range:** 162.400 – 162.550 MHz
+- **162.400 MHz**
+- **162.425 MHz**
+- **162.450 MHz**
+- **162.475 MHz**
+- **162.500 MHz**
+- **162.525 MHz**
+- **162.550 MHz**
+
+**Modulation:** NFM
 
 # Transponders
 ---
-## ADS-B
-Automatic Dependent Surveillance–Broadcast. Used in aircraft transponders to broadcast location, altitude, and speed data to other aircraft and air traffic control.
+Systems automatically transmitting identification, position, or telemetry data.
+## ADS-B (Aviation)
+---
+Automatic Dependent Surveillance–Broadcast (ADS-B) used by aircraft to transmit identity, position, altitude, and velocity.
 
 **Frequencies:** 
-* 1090MHz
-## AIS
-Automatic Identification System. Used in sea vessel transponders to share location, status, and movements to other ships, shore stations, and satellite systems.
+* **1090 MHz** - ADS-B Out
+**Modulation:** Digital
+## AIS (Marine)
+---
+Automatic Identification System used by ships to broadcast identity, GPS position, course, and speed to other ships, ground stations, and satellites.
 
 **Frequencies:**
-* 161.975MHz
-* 162.025MHz
+* **161.975 MHz** - AIS 1
+* **162.025 MHz** - AIS 2
+**Modulation:** Digital
 ## APRS
-Automatic Packet Reporting System. Primarily used by amateur radio operators to transmit digital data including text and location data.
+---
+Automatic Packet Reporting System. Primarily used by amateur radio operators to transmit digital data including text and location data. It can be transmitted on any frequency in the amateur radio spectrum but typically lives on 144.39 MHz.
 
 **Frequencies:** 
-* 144.39MHz
+* **144.39 MHz** - APRS Frequency
+**Modulation:** Digital
 ## Remote ID
 US Regulations require Remote Controlled aircraft to be equipted with a Remote ID transponder to transmit a unique ID but may also transmit additional telemetry and location data.
 
@@ -37,153 +67,156 @@ US Regulations require Remote Controlled aircraft to be equipted with a Remote I
 # Voice
 ---
 ## Amateur Radio
-* 9 Meter: 50MHz - 54MHz
-* 2 Meter: 144MHz - 148MHz
-* 70 CM: 420MHz - 450MHz
+---
+Amateur (ham) radio provides licensed operators with bands for experimentation, communication, and emergency support.
 
-Modulations Types: FM, NFM, AM, Digital
+**Frequency Ranges**
 
-## FRS/GMRS 
-Family Radio Service (FRS) and General Mobile Radio Service (GMRS) provide short range two-way radio for personal use (FRS) and licensed recreational use (GMRS). FRS and GMRS share some channels but GMRS have extra privileges to include higher bandwidth and transmission power.
+- **6 Meter Band:** 50 – 54 MHz
+	- **52.525 MHz** - FM Calling Frequency
+	- **50.125 MHz** - SSB Calling Frequency
 
-Frequency Range: 
-* 462.5625MHz - 462.7250MHz
-* 462.5625 (Channel 1) - GMRS Calling Frequency
-Channels:
-* 1 - 7 Shared GMRS and FRS Simplex
-* 8 - 14 FRS Simplex
-* 15-22 GMRS simplex and repeater output
-Modulation Types: NFM
+- **2 Meter Band:** 144 – 148 MHz
+	- **146.520 MHz** - FM Calling Frequency
 
-### Channels
+- **70 Centimeter Band:** 420 – 450 MHz
+	- **446.000 MHz** - FM Calling Frequency
 
-| Channel | Frequency | FRS Channel | FRS Power | FRS Bandwidth | GMRS Channel | GMRS Power | GMRS Bandwidth | Usage                            |
-| ------- | --------- | ----------- | --------- | ------------- | ------------ | ---------- | -------------- | -------------------------------- |
-| 01      | 462.5625  | FRS 1       | 0.5 W     | 12.5 kHz      | GMRS 9       | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 02      | 462.5875  | FRS 2       | 0.5 W     | 12.5 kHz      | GMRS 10      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 03      | 462.6125  | FRS 3       | 0.5 W     | 12.5 kHz      | GMRS 11      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 04      | 462.6375  | FRS 4       | 0.5 W     | 12.5 kHz      | GMRS 12      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 05      | 462.6625  | FRS 5       | 0.5 W     | 12.5 kHz      | GMRS 13      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 06      | 462.6875  | FRS 6       | 0.5 W     | 12.5 kHz      | GMRS 14      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 07      | 462.7125  | FRS 7       | 0.5 W     | 12.5 kHz      | GMRS 15      | 5 W        | 25 kHz         | FRS and GMRS Simplex             |
-| 08      | 467.5625  | FRS 8       | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 09      | 467.5875  | FRS 9       | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 10      | 467.6125  | FRS 10      | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 11      | 467.6375  | FRS 11      | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 12      | 467.6625  | FRS 12      | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 13      | 467.6875  | FRS 13      | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 14      | 467.7125  | FRS 14      | 0.5 W     | 12.5 kHz      |              |            |                | FRS Simplex                      |
-| 15      | 462.5500  |             |           |               | GMRS 1       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 16      | 462.5750  |             |           |               | GMRS 2       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 17      | 462.6000  |             |           |               | GMRS 3       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 18      | 462.6250  |             |           |               | GMRS 4       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 19      | 462.6500  |             |           |               | GMRS 5       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 20      | 462.6750  |             |           |               | GMRS 6       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 21      | 462.7000  |             |           |               | GMRS 7       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-| 22      | 462.7250  |             |           |               | GMRS 8       | 50 W       | 25 kHz         | GMRS Simplex and Repeater Output |
-|         | 467.5500  |             |           |               | GMRS 1 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.5750  |             |           |               | GMRS 2 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.6000  |             |           |               | GMRS 3 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.6250  |             |           |               | GMRS 4 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.6500  |             |           |               | GMRS 5 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.6750  |             |           |               | GMRS 6 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.7000  |             |           |               | GMRS 7 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
-|         | 467.7250  |             |           |               | GMRS 8 in    | 50 W       | 25 kHz         | GMRS Repeater Input              |
+**Modulation Types:** FM, NFM, AM, Digital
 
+## FRS / GMRS
+---
+Family Radio Service (FRS) and General Mobile Radio Service (GMRS) provide short-range two-way communication. FRS is license-free; GMRS requires a license and allows higher power and repeater use.
 
+**Frequency Range**
+- **462.5625 – 462.7250 MHz**
+    - **462.5625 MHz (Channel 1)** – Common GMRS calling frequency
+
+**Channels**: 22 (+8 Repeater Inputs)
+- **1–7:** Shared FRS & GMRS simplex
+- **8–14:** FRS simplex only
+- **15–22:** GMRS simplex and repeater outputs
+
+**Modulation Type:** NFM
 
 ## CB Radio
-Citizens Band (CB) is a unlicensed, two-way communication system allowing individuals to communicate over short distances. Often used within vehicles but can be used from home or offices.
+---
+Citizens Band (CB) is an unlicensed short-distance radio service commonly used by motorists and hobbyists.
 
-Frequency Range: 
-* 26.965MHz - 27.406MHz
-	* 27.185 (Channel 19) - Highway/Trucker Channel
-	* 27.065 (Channel 9) - Emergency Use. Occasionally monitored by police
-Channels: 40
-Modulation Types: FM, AM, SSB
+**Frequency Range**
+- **26.965 – 27.405 MHz**
+    - **27.185 MHz (Channel 19)** – Highway/trucker channel
+    - **27.065 MHz (Channel 9)** – Emergency use (historically monitored)
 
+**Channels:** 40
 
+**Modulation Types:** AM, FM, SSB
 
-## LMRS
+## LMRS (Land Mobile Radio Service)
+---
+LMRS includes licensed two-way radio systems used by public safety, government, utilities, transportation, and businesses. Systems range from single repeaters to large trunked radio networks. Frequencies are individually licensed by the FCC.
 
-Land Mobile Radio Service (LMRS) is a licensed radio system used often by public saftey, government, utilities, and businesses for field communications and dispatch. Systems can range from small business owned repeaters to state-wide trunked systems. FCC individually licenses frequency to organizations based on requirements.
+**Frequency Ranges**
+- **30 – 50 MHz** (VHF Low Band)
+- **150 – 174 MHz** (VHF High Band)
+- **450 – 470 MHz** (UHF)
+- **851 – 869 MHz** (800 MHz Band)
+- **935 – 940 MHz** (900 MHz Band)
 
-Frequency Range: 
-* 30MHz - 50MHz
-* 150MHz - 174MHz
-* 450MHz - 470MHz
-* 851MHz - 866MHz
-* 935MHz - 940MHz
-Modulation Types: FM, NFM, Digital (P25, DMR)
+**Modulation Types:** FM, NFM, Digital (P25, DMR, NXDN)
 
-
-* **Law Enforcement**: Enables coordination among police officers
-* **Fire & EMS**: Facilitates communication for firefighters and emergency medical services
-* **Utilities**: Used for coordination in utility services
-* **Commercial Industries**: Serves as a primary means of communication for various businesses
-* **Transportation**: Used in trucking and logistics for coordinating operations
-* **Event Management**: Useful for large-scale event coordination
-* **Military:** Have reserved frequency ranges
-
+**Common Users**
+- Law Enforcement
+- Fire & EMS
+- Utilities
+- Commercial & Industrial
+- Transportation & Logistics
+- Event Operations
+- Military (separate dedicated allocations)
 
 ## Airband
+---
+Airband refers to the spectrum used for civil aviation voice communication and radio navigation between aircraft, air traffic control, and ground services.
 
-Airband referres to part of the radio spectrum use for civil aviation communicationa nd navigation to enable voice communication between other aircraft, air traffic controllers, and ground services. It also enables usaged of radio based navigational aids like VOR and ILS.
+**Frequency Ranges**
+- **Navigation:** 108.000 - 117.975 MHz
+- **Voice:** 118.000 - 136.975 MHz
+    - **121.500 MHz** - International air emergency (Guard)
+    - **123.100 MHz** - Common air-to-air coordination
+    - **122.750 MHz** - General aviation air-to-air
 
-Frequency Range: 
-* Navigation: 108MHz - 117.95MHz
-* Voice: 118MHz - 136.975MHz
-	* 121.500 MHz - International Air Emergency
-	* 123.100 MHz - General Air-to-Air informal coordination
-	* 122.750 MHz - General Air-to-Air Aviation Voice
-Modulation: AM
+**Modulation Type:** AM
 
-Airband provides voice communication between pilots and air traffic control for takeoff, landing, and flight path adjustments as well as for emergency communications and alerts.
+## Marine VHF
+---
 
+Marine VHF is used for short-range communication between vessels, harbormasters, bridges, and the U.S. Coast Guard. It is essential for navigation safety, hailing, distress calls, and port operations.
+
+**Frequency Range**
+- **156.000 – 162.025 MHz**
+	- **156.800 MHz (Channel 16)** – International hailing & distress
+	- **156.300 MHz (Channel 6)** – Intership safety communications
+	- **156.650 MHz (Channel 13)** – Bridge-to-bridge navigation safety
+
+**Modulation Type:** NFM
 # ISM
 ---
-The ISM bands are unlicensed ranges of frequencies reserved for Industrial, Scientific, and Medical uses. 
+The ISM bands are unlicensed ranges of frequencies reserved for Industrial, Scientific, and Medical uses. Devices utilizing these bands are still required to follow FCC regulations and guidelines for exposure limits and interference acceptance. 
 
-## 13.56 Band (13.553-13.567MHz)
-Frequency Range: 13.553MHz - 13.567MHz
-* RFID and Access Control
-* NFC
+## 13.56 Band
+---
+**Frequency Range:** 13.553 – 13.567 MHz  
+**Common Uses**
+- RFID & access control
+- NFC (Near Field Communication)
 
-## 915MHz Band
-Frequency Range: 902MHz-928MHz
-* RFID and Vehicle Tracking
-* ZigBee
-* Lora (Meshtastic)
-* Baby Monitors
-* Cordless Phones
+## 915 MHz ISM Band
+---
+**Frequency Range:** 902 – 928 MHz  
+**Common Uses**
+- RFID & asset tracking
+- LoRa / Meshtastic
+- ZigBee / IoT devices
+- Baby monitors
+- Cordless phones
 
-## 2.4GHz
-Frequency Range: 2.4MHz - 2.5GHz
-* WiFi
-* Bluetooth
-* Radio Controlled Vehicles
-* Microwave Ovens
+## 2.4 GHz ISM Band
+---
+**Frequency Range:** 2.400 – 2.4835 GHz  
+**Common Uses**
+- Wi-Fi
+- Bluetooth
+- Wireless peripherals
+- RC vehicles & drones
+- Microwave ovens
 
-## 5GHz Band
-Frequency Range: 5.725MHz - 5.875GHz
-* WiFi
-* Short Range Video Transmission
-* Radio Controlled Vehicles
+## 5.8 GHz ISM Band
+---
+**Frequency Range:** 5.725 – 5.875 GHz  
+**Common Uses**
+- Wi-Fi
+- FPV video links
+- RC systems
 
 # Licensed
 ---
-## 315MHz Band 
-Frequency Range: 312MHz - 318MHz
-US Based licensed band
-* TPMS
-* Key fobs, Garage
-* Door Openers
-* Home Automation
-* Alarm Systems
+These bands are allocated for licensed or regionally regulated short-range devices.
 
-## 433MHz Band 
-Frequency Range: 433MHz - 435MHz
-Internationally recognized band
-* Lora (Meshtastic)
-* TPMS
-* Weather Sensors
+## 315 MHz Band (U.S.)
+---
+**Frequency Range:** 312 – 318 MHz  
+**Common Uses**
+- LoRa / Meshtastic (Europe)
+- TPMS (tire pressure monitoring)
+- Key fobs & garage door openers
+- Alarm systems
+- Home automation devices
+
+## 433 MHz Band (International)
+---
+**Frequency Range:** 433.050 – 434.790 MHz  
+**Common Uses**
+- LoRa / Meshtastic (US)
+- Weather sensors
+- Remote switches
+- TPMS (some regions)

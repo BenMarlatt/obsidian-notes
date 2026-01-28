@@ -49,17 +49,11 @@ Check the connectivity state of NetworkManager to check for internet access and 
 
 > [!NOTE]
 > Connectivity can be in one of 5 states
-
-> none
-> 	No network is connected
-> portal
-> 	Network connectivity but internet access blocked by captive portal
-> limited
-> 	Network connectivity but no access to the internet
-> full
-> 	Network connectivity with internet access
-> unknown
-> 	Unable to determine network connectivity status
+> **none** - No network is connected
+> **portal** - Network connectivity but internet access blocked by captive portal
+> **limited** - Network connectivity but no access to the internet
+> **full** - Network connectivity with internet access
+> **unknown** - Unable to determine network connectivity status
 
 ```
 nmcli networking connectivity [check]
