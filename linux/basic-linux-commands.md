@@ -97,27 +97,22 @@ pwd
 
 ### cd
 
-Change Directory. 
+Change Directory. Primarily used to navigate the linux file system. You can find your current directory with the [[#pwd]] Command
 
 SYNTAX:
 ```bash
 cd [DIRECTORY]
 ```
 
-SPECIAL DIRECTORIES:
-
-`.`
-	Current Directory
-`..`
-	Parent Directory
-`~`
-	Current user's home directory
-`~<USER>`
-	Specified user's ho
-`\`
-	Root directory
-`-`
-	Previous directory accessed by cd
+> [!INFO]
+> SPECIAL DIRECTORIES:
+> 
+> `.` Current Directory
+> `..` Parent Directory 
+> `~` Current user's home directory
+> `~<USER>` Specified user's home directory
+> `\` Root directory
+>`-`  Previous directory accessed by cd
 
 EXAMPLES:
 
@@ -153,10 +148,10 @@ touch /home/$USER/notes.txt
 
 SYNTAX:
 ```bash
-rm [OPTION] <FILE>
+rm [OPTIONS] <FILE>
 ```
 
-SPECIAL DIRECTORIES:
+OPTIONS:
 
 `-r`
 	Recursively remove files.
